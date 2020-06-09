@@ -1,0 +1,22 @@
+#colorDiv {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 255, 0.158);
+}
+
+html {
+    background: url(../img/burger.jpg) no-repeat;
+}
+
+/*
+2-es számr: 01
+3-as számr: 012
+10-es számr: 0123456789
+16-os számr: 0123456789ABCDEF
+
+255 (10) = FF (16)
+(10) 255 = 2*100 + 5*50 + 5*1
+(16) FF = F*16 + F*1 = 15*16 + 15*1 = 255
+rgb (255, 255, 255) = #FFFFFF
+*/
